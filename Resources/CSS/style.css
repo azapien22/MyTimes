@@ -32,6 +32,10 @@ header {
 	margin-right: 12px;
 }
 
+.logo span {
+	color: mediumaquamarine;
+}
+
 .logo h3 {
 	color: mediumaquamarine;
 }
@@ -70,8 +74,8 @@ a:hover {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
 	width: 630px;
 	margin-top: 0;
-	font-size: 40px;
-	text-align: left;	
+	font-size: 20px;
+	text-align: center;	
 }
 
 .image-content {
@@ -84,6 +88,11 @@ a:hover {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	text-align: center;
+}
+
+.lead-story .image-content span {
+	margin-left: 20px;
 }
 
 .narrative {
